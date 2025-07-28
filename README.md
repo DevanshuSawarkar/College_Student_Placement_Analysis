@@ -49,16 +49,16 @@ This project explores a dataset containing academic, personal, and placement det
     ![Placement Distribution Graph](images/placement_distribution_graph.png "Placement Distribution Graph")
     - A majority of students are not placed (about 83%).
 - CGPA’s impact on placement:
-    ![CGPA vs Placement Graph](images\cgpa_vs_placement.png "CGPA vs Placement Graph")
+    ![CGPA vs Placement Graph](images/cgpa_vs_placement.png "CGPA vs Placement Graph")
     - Students with higher CGPA are more likely to be placed.
 - Student’s IQ impact on placement:
-    ![IQ vs Placement Graph](images\iq_vs_placement.png "IQ vs Placement Graph")
+    ![IQ vs Placement Graph](images/iq_vs_placement.png "IQ vs Placement Graph")
     - Similar trend: higher IQ may correspond with higher placement chances.
 - Internship experience impact on placement:
-    ![Internship Experience vs Placement Graph](images\intership_vs_placement.png "Internship Experience vs Placement Graph")
+    ![Internship Experience vs Placement Graph](images/intership_vs_placement.png "Internship Experience vs Placement Graph")
     - Students with internship experience (Yes) are more frequently placed.
 - Heatmap of Feature Correlation:
-    ![Heatmap of Feature Correlation](images\images\heatmap.png.png "Heatmap of Feature Correlation")
+    ![Heatmap of Feature Correlation](images/heatmap.png "Heatmap of Feature Correlation")
 
 # 5. Key Insights
 

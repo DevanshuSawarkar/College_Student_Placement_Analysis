@@ -63,7 +63,7 @@ This project explores a dataset containing academic, personal, and placement det
     - ![Heatmap of Feature Correlation](images/heatmap.png "Heatmap of Feature Correlation")
 
 - 
-    ## 4.1. Univariant Analysis
+    ## 4.1. Univariant Analysis Summary
 
     Univariate analysis focused on each variable independently:
 
@@ -75,7 +75,7 @@ This project explores a dataset containing academic, personal, and placement det
     - Internship Experience is binary (Yes/No) and was encoded for modeling.
 
 - 
-    ## 4.2. Multivariant Analysis
+    ## 4.2. Multivariant Analysis Summary
     
     Multivariate analysis explored interactions between variables and their effect on placement:
 

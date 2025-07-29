@@ -11,6 +11,7 @@ This project explores a dataset containing academic, personal, and placement det
 - Rows: 10000
 - Columns: 10
 
+- 
     ## 2.1. Dataset Description
 
     This dataset simulates the academic and professional profiles of 10,000 college students, focusing on factors that influence placement outcomes. It includes features like IQ, academic performance, CGPA, internships, communication skills, and more.
@@ -21,6 +22,7 @@ This project explores a dataset containing academic, personal, and placement det
     - Feature importance analysis
     - End-to-end machine learning projects
 
+- 
     ## 2.2. Columns Description
 
     | Column Name | Description |
@@ -59,6 +61,35 @@ This project explores a dataset containing academic, personal, and placement det
     - Students with internship experience (Yes) are more frequently placed.
 - Heatmap of Feature Correlation:
     - ![Heatmap of Feature Correlation](images/heatmap.png "Heatmap of Feature Correlation")
+
+- 
+    ## 4.1. Univariant Analysis
+
+    Univariate analysis focused on each variable independently:
+
+    - IQ and CGPA are normally distributed with mild right skew.
+    - Academic Performance, Communication Skills, and Extra-Curricular Score    show balanced spread.
+    - Placement Outcome (target) is imbalanced:
+        - Around 83% students are not placed, and only 17% are placed.
+    - No missing values or duplicates were found.
+    - Internship Experience is binary (Yes/No) and was encoded for modeling.
+
+- 
+    ## 4.2. Multivariant Analysis
+    
+    Multivariate analysis explored interactions between variables and their effect on placement:
+
+    - CGPA vs Placement:
+        - Students with higher CGPA were more likely to be placed.
+        - Clear distinction in median CGPA between placed vs not placed     students.
+    - IQ vs Placement:
+        - Students with higher IQ tended to have higher placement probability.
+    - Internship Experience:
+        - Strongly correlated with placement.
+        - Students with internships had significantly higher placement rates.
+    - Feature Correlation Heatmap:
+        - Positive correlation among IQ, CGPA, Academic Performance, and    Placement.
+        - All features show varying but meaningful contributions to placement.
 
 # 5. Key Insights
 
